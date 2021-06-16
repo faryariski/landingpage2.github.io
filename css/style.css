@@ -1,0 +1,314 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.topbar {
+  height: 60px;
+  background-color: rgb(136, 136, 136);
+  padding: 5px;
+  box-sizing: border-box;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.topbar-content {
+  width: 1000px;
+  margin: 0 auto;
+}
+.logo-title {
+  text-transform: uppercase;
+  color: #ffb032;
+}
+.topbar .navbar ul {
+  text-align: center;
+  float: right;
+  top: -81px;
+  position: relative;
+}
+.topbar .navbar ul li {
+  display: inline-block;
+  width: 100px;
+  text-decoration: none;
+  color: rgb(230, 230, 230);
+  font-size: 20px;
+  height: 60px;
+  line-height: 60px;
+}
+.contact-item {
+  margin-right: -5px;
+}
+.topbar .navbar ul li:hover {
+  background-color: rgb(71, 168, 192);
+  display: inline-block;
+  transition: 0.8s ease;
+}
+
+.container {
+  /* width: 800px; */
+  margin: 0 auto;
+  padding: 5px;
+  box-sizing: border-box;
+  position: relative;
+}
+.col {
+  margin: 0 auto;
+  margin-top: -60px;
+  width: 1000px;
+}
+.col-sm {
+  width: 1000px;
+  margin: 0 auto;
+}
+.bg-grey {
+  background-color: #f3f4f5;
+}
+.bg-white {
+  background-color: #fff;
+}
+.row {
+  /* width: 1000px; */
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.bg-image {
+  background-image: url('../assets/gambar-1.jpg');
+  background-size: cover;
+  margin: 0 auto;
+  margin-top: -5px;
+  height: 1000px;
+  position: relative;
+}
+.bg-image::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to top, rgba(19, 19, 19, 1), rgba(121, 121, 121, 0.411), rgba(0, 0, 0, 0));
+  position: absolute;
+  bottom: 0;
+}
+.box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+.display-4 {
+  color: #ffffff;
+  text-align: center;
+  margin-top: 250px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  font-size: 50px;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.faster {
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #ffb032;
+  font-weight: bold;
+  display: inline-block;
+  width: 150px;
+}
+
+.better {
+  font-weight: bold;
+}
+
+.display-selengkapnya {
+  background-color: #2587a0;
+  color: #fff;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline;
+  border-radius: 10px;
+  bottom: 80px;
+  left: 180px;
+  position: absolute;
+  z-index: 999;
+  text-decoration: none;
+}
+
+.content {
+  width: 1000px;
+  margin: 10px auto;
+}
+.container .sub-judul {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* Section 1 and Section 2*/
+
+.img-fluid {
+  width: 500px;
+}
+
+.section-1,
+.section-2 {
+  margin-top: 150px;
+  width: 1000px;
+}
+.section-1 .gambar-1,
+.section-2 .gambar-2 {
+  border-radius: 20px;
+}
+.section-1 h2,
+.section-2 h2 {
+  text-transform: uppercase;
+  color: #213b81;
+  font-size: 30px;
+  font-weight: 400;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.section-1 span,
+.section-2 h2 {
+  font-weight: bold;
+}
+
+.section-1 p,
+.section-2 p {
+  font-size: 25px;
+  margin: 30px 0;
+}
+.gambar {
+  width: 500px;
+}
+
+.text-section {
+  width: 450px;
+  float: right;
+  margin-top: -300px;
+}
+
+.button-view {
+  text-transform: uppercase;
+  border-radius: 20px;
+  margin-top: 10px;
+  background-color: #0d6efd;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.text-section-3 {
+  width: 600px;
+}
+
+.text-3 {
+  margin-bottom: 0px;
+}
+
+.img-section-3 {
+  width: 200px;
+  float: right;
+  margin-top: -300px;
+  margin-right: 100px;
+}
+
+.container .content .contact {
+  margin-top: -100px;
+  z-index: 999;
+}
+.container .contact .form {
+  margin: 0 auto;
+  width: max-content;
+}
+.container .contact .form label {
+  font-size: 1.2em;
+}
+.container .contact .form input {
+  width: 550px;
+  height: 20px;
+  position: relative;
+}
+.container .contact .form textarea {
+  width: 550px;
+}
+.container .contact .form button[type='submit'] {
+  font-size: 1em;
+  background-color: #0d6efd;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.table-form {
+  width: 500px;
+}
+.container .content .contact .logo {
+  float: right;
+  width: 600px;
+  margin-top: 30px;
+  margin-right: 100px;
+}
+.clean {
+  clear: both;
+}
+.container .content .contact .logo .logo-telpon,
+.container .content .contact .logo .logo-email,
+.container .content .contact .logo .logo-linked {
+  text-align: center;
+}
+p {
+  display: inline-block;
+  margin-bottom: 40px;
+  top: -15px;
+  font-size: 20px;
+  margin-left: 20px;
+  position: relative;
+}
+
+footer {
+  background-color: rgb(42, 42, 42);
+  text-align: center;
+  margin-top: 100px;
+  line-height: auto;
+  color: rgb(190, 190, 190);
+  font-size: 18px;
+  padding: 20px;
+}

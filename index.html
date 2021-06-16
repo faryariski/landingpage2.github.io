@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./script/script.js"></script>
+  </head>
+  <body>
+    <div class="topbar">
+        <div class="topbar-content">
+            <h3 class="logo-title">Landing Web</h3>
+            <div class="navbar">
+                <ul>
+                    <a href="#home" class="home"><li>Home</li></a>
+                    <a href="#features" class="features"><li>Features</li></a>
+                    <a href="#about" class="about"><li>About</li></a>
+                    <a href="#contact" class="contact-item"><li>Contact Me</li></a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bg-image">
+      <div class="box">
+        <h1 class="display-4">
+          Get Work Done <span class="faster">Faster</span><br />
+          And <span class="better">Better</span> With Us
+        </h1>
+        <a href="#home" class="display-selengkapnya">selengkapnya</a>
+      </div>
+    </div>
+    <div class="container">
+      <!-- <div class="content"> -->
+        <div class="home" id="home">
+          <!-- section 1 -->
+              <div class="row section-1">
+                <div class="col-lg gambar">
+                  <img src="assets/gambar-2.jpg" class="img-fluid gambar-1" alt="gambar1" />
+                </div>
+                <div class="col-lg text-section">
+                  <h2>Work with <span>Comfortably</span></h2>
+                  <p>Bekerja dengan nyaman dan juga suasana yang tenang dalam bekerja.</p>
+                  <a href="#" class="button-view">View</a>
+                </div>
+              </div>
+
+          <!-- end section 1 -->
+
+          <!-- section 2 -->
+          <div class="row section-2" id="features">
+            <div class="col-lg gambar">
+              <img src="assets/gambar-2.jpg" class="img-fluid gambar-2 float-end" alt="gambar2" />
+            </div>
+            <div class="col-lg text-section">
+              <h2>Features</h2>
+              <p>Bekerja dengan nyaman dan juga suasana yang tenang dalam bekerja.</p>
+              <a href="#" class="button-view">View</a>
+            </div>
+          </div>
+        </div>
+          <!-- end section 2 -->
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f3f4f5" fill-opacity="1" d="M0,192L48,197.3C96,203,192,213,288,202.7C384,192,480,160,576,154.7C672,149,768,171,864,186.7C960,203,1056,213,1152,224C1248,235,1344,245,1392,250.7L1440,256L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+     
+          <!-- section 3 -->
+          <div class="row bg-grey">
+              <div class="col section-3 about" id="about">
+                <h2 class="sub-judul">Tentang Kami</h2>
+                <div class="text-section-3">
+                  <p class="text-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur eveniet non incidunt omnis ullam sint tempora id alias quaerat qui! Harum adipisci impedit et illum sint sunt, quia vitae eius.</p>
+                  <p class="text-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum vero veritatis ea veniam voluptatibus natus, pariatur, inventore consectetur repellendus enim esse sed nisi quaerat eos. Dolores quisquam dolorem non minima.
+                  </p>
+                  <p class="text-3">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti alias mollitia aperiam vitae culpa accusamus fuga tempore repudiandae modi veritatis molestiae dicta est doloribus numquam, vero ea eum totam quia illo
+                    soluta officia quod. Numquam assumenda rem vel reprehenderit facere?
+                  </p>
+                </div>
+                <img src="./assets/book.png" alt="" class="img-section-3" />
+              </div>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,160L48,165.3C96,171,192,181,288,165.3C384,149,480,107,576,122.7C672,139,768,213,864,240C960,267,1056,245,1152,218.7C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+          </div>
+          <div class="row bg-white">
+            <div class="col contact col-md-6" id="contact">
+              <h2 class="sub-judul">Kontak</h2>
+              <form class="form" action="">
+                <table class="table-form">
+                  <tr>
+                    <td><label for="name">Nama</label></td>
+                  </tr>
+                  <tr>
+                    <td><input type="text" class="form-control" id="username"/></td>
+                  </tr>
+                  <tr>
+                    <td><label for="email">Email</label></td>
+                  </tr>
+                  <tr>
+                    <td><input type="email" class="form-control" id="email" aria-describedby="emailHelp"/></td>
+                  </tr>
+                  <tr>
+                    <td><label for="pesan">Pesan</label></td>
+                  </tr>
+                  <tr>
+                    <td><textarea class="form-control" name="textarea" id="message" cols="0" rows="10"></textarea></td>
+                  </tr>
+                  <tr>
+                    <td><button type="submit" value="Kirim" class="btn" onclick="button_submit()">Kirim</td>
+                  </tr>
+                </table>
+              </form>
+            <div class="clean"></div>
+           </div>          
+        </div>
+    </div>
+
+    <footer>
+        © Copyright.2021. Created by Aryariski
+        
+    </footer>
+  </body>
+</html>
